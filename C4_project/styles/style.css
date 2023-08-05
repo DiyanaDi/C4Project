@@ -1,0 +1,68 @@
+        *{
+            box-sizing: border-box;
+        }
+
+        .container-fluid{
+            --bs-gutter-x: 0rem;
+        }
+
+        .height-22{
+            height: 22rem;
+        }
+
+        h6{
+            color: gray;
+        }
+
+        .loadMore{
+            width: 18rem;
+            margin: 0rem auto 2rem;
+        }
+
+        /*hiding the products by default*/
+        .col-md-4, .col-6, .hide{
+            display: none; 
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .sticky-2{
+            position: fixed;
+            top: 25;
+            width: 18%;
+        }
+
+        .sticky-3{
+            position: fixed;
+            top: 25;
+            width: 18%;
+        }
+
+        .m-10{
+            margin-top: 8rem;
+        }
+
+        .footer{
+            height: 7rem;
+        }
+
+        .bg-gray{
+            background-color:#dee2e6;
+        }
+
+        .gap{
+            gap:2rem;
+        }
+
+        .list-style-type-none{
+            list-style-type: none;
+        }
+
+        .fs-2{
+            font-size: 2rem;
+            cursor:pointer;
+        }
