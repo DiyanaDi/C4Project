@@ -1,25 +1,25 @@
 const products =
-    [{name:"Racquet Begginer", category:"Racquets", price:10, image:'/images/tennis_2.png', color: "red", description: 'for starters', rating: 3},
-    {name:"Racquet Intermediate", category:"Racquets", price:12, image:'/images/tennis_2.png', color: "red", description: 'medium', rating: 4},
-    {name:"Racquet Pro", category:"Racquets", price:7, image:'/images/tennis_2.png', color: "red", description: 'expert choice', rating: 3},
-    {name:"Racquet Special", category:"Racquets", price:19, image:'/images/tennis_2.png', color: "red", description: '2 in 1', rating: 5},
-    {name:"Racquet Kids", category:"Racquets", price:53, image:'/images/tennis_2.png', color: "pink", description: 'smaller size', rating: 5},
-    {name:"Racquet Mini", category:"Racquets", price:11, image:'/images/tennis_2.png', color: "pink", description: 'mini edition', rating: 5},
-    {name:"Racquet Team", category:"Racquets", price:55, image:'/images/tennis_2.png', color: "yellow", description: 'team edition', rating: 4},
-    {name:"Racquet Sport", category:"Racquets", price:57, image:'/images/tennis_2.png', color: "yellow", description: 'best choice', rating: 3}, /*da dobawq descr i rating*/
-    {name:"Racquet Advanced", category:"Racquets", price:22, image:'/images/tennis_2.png', color: "yellow", description: 'not for amateurs', rating: 3},
-    {name:"Dress Standard", category:"Dresses", price:22, image:'/images/tennis_dress.jpg', color: "yellow", description: 'mini edition', rating: 4},
-    {name:"Dress Mini", category:"Dresses", price:92, image:'/images/tennis_dress_2.jpg', color: "yellow", description: 'casual', rating: 3},
-    {name:"Dress Pro", category:"Dresses", price:78, image:'/images/tennis_dress.jpg', color: "pink", description: 'everyday choice', rating: 5},
-    {name:"Dress Pro", category:"Dresses", price:82, image:'/images/tennis_dress_2.jpg', color: "pink", description: 'mini edition', rating: 3},
-    {name:"Dress Standard", category:"Dresses", price:36, image:'/images/tennis_dress.jpg', color: "red", description: 'casual', rating: 3},
-    {name:"Dress Mini", category:"Dresses", price:55, image:'/images/tennis_dress_2.jpg', color: "red", description: 'everyday choice', rating: 4},
-    {name:"Trainers Pro", category:"Shoes", price:54, image:'/images/shoes_1.jpg', color: "yellow", description: 'everyday choice', rating: 3},
-    {name:"Trainers Challenger", category:"Shoes", price:101, image:'/images/shoes_2.jpg', color: "yellow", description: 'casual', rating: 3},
-    {name:"Trainers Sport", category:"Shoes", price:64, image:'/images/shoes_3.jpg', color: "pink", description: 'perfect for running from problems', rating: 4},
-    {name:"Trainers Team", category:"Shoes", price:38, image:'/images/shoes_1.jpg', color: "pink", description: 'nitro on', rating: 3},
-    {name:"Trainers Kids", category:"Shoes", price:23, image:'/images/shoes_2.jpg', color: "red", description: 'turbo mode', rating: 5},
-    {name:"Trainers Mini", category:"Shoes", price:42, image:'/images/shoes_3.jpg', color: "red", description: 'faster than a comet', rating: 3}]
+    [{name:"Racquet Begginer", category:"Racquets", price:10, image:'/C4Project-main/C4_project/images/tennis_2.png', color: "red", description: 'for starters', rating: 3},
+    {name:"Racquet Intermediate", category:"Racquets", price:12, image:'/C4Project-main/C4_project/images/tennis_2.png', color: "red", description: 'medium', rating: 4},
+    {name:"Racquet Pro", category:"Racquets", price:7, image:'/C4Project-main/C4_project/images/tennis_2.png', color: "red", description: 'expert choice', rating: 3},
+    {name:"Racquet Special", category:"Racquets", price:19, image:'/C4Project-main/C4_project/images/tennis_2.png', color: "red", description: '2 in 1', rating: 5},
+    {name:"Racquet Kids", category:"Racquets", price:53, image:'/C4Project-main/C4_project/images/tennis_2.png', color: "pink", description: 'smaller size', rating: 5},
+    {name:"Racquet Mini", category:"Racquets", price:11, image:'/C4Project-main/C4_project/images/tennis_2.png', color: "pink", description: 'mini edition', rating: 5},
+    {name:"Racquet Team", category:"Racquets", price:55, image:'/C4Project-main/C4_project/images/tennis_2.png', color: "yellow", description: 'team edition', rating: 4},
+    {name:"Racquet Sport", category:"Racquets", price:57, image:'/C4Project-main/C4_project/images/tennis_2.png', color: "yellow", description: 'best choice', rating: 3}, /*da dobawq descr i rating*/
+    {name:"Racquet Advanced", category:"Racquets", price:22, image:'/C4Project-main/C4_project/images/tennis_2.png', color: "yellow", description: 'not for amateurs', rating: 3},
+    {name:"Dress Standard", category:"Dresses", price:22, image:'/C4Project-main/C4_project/images/tennis_dress.jpg', color: "yellow", description: 'mini edition', rating: 4},
+    {name:"Dress Mini", category:"Dresses", price:92, image:'/C4Project-main/C4_project/images/tennis_dress_2.jpg', color: "yellow", description: 'casual', rating: 3},
+    {name:"Dress Pro", category:"Dresses", price:78, image:'/C4Project-main/C4_project/images/tennis_dress.jpg', color: "pink", description: 'everyday choice', rating: 5},
+    {name:"Dress Pro", category:"Dresses", price:82, image:'/C4Project-main/C4_project/images/tennis_dress_2.jpg', color: "pink", description: 'mini edition', rating: 3},
+    {name:"Dress Standard", category:"Dresses", price:36, image:'/C4Project-main/C4_project/images/tennis_dress.jpg', color: "red", description: 'casual', rating: 3},
+    {name:"Dress Mini", category:"Dresses", price:55, image:'/C4Project-main/C4_project/images/tennis_dress_2.jpg', color: "red", description: 'everyday choice', rating: 4},
+    {name:"Trainers Pro", category:"Shoes", price:54, image:'/C4Project-main/C4_project/images/shoes_1.jpg', color: "yellow", description: 'everyday choice', rating: 3},
+    {name:"Trainers Challenger", category:"Shoes", price:101, image:'/C4Project-main/C4_project/images/shoes_2.jpg', color: "yellow", description: 'casual', rating: 3},
+    {name:"Trainers Sport", category:"Shoes", price:64, image:'/C4Project-main/C4_project/images/shoes_3.jpg', color: "pink", description: 'perfect for running from problems', rating: 4},
+    {name:"Trainers Team", category:"Shoes", price:38, image:'/C4Project-main/C4_project/images/shoes_1.jpg', color: "pink", description: 'nitro on', rating: 3},
+    {name:"Trainers Kids", category:"Shoes", price:23, image:'/C4Project-main/C4_project/images/shoes_2.jpg', color: "red", description: 'turbo mode', rating: 5},
+    {name:"Trainers Mini", category:"Shoes", price:42, image:'/C4Project-main/C4_project/images/shoes_3.jpg', color: "red", description: 'faster than a comet', rating: 3}]
 
     function changeCategory(){
 
