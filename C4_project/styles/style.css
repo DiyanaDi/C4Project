@@ -6,6 +6,10 @@
             --bs-gutter-x: 0rem;
         }
 
+        .navbar{
+            z-index:2;
+        }
+
         .height-22{
             height: 22rem;
         }
@@ -47,7 +51,7 @@
         }
 
         .footer{
-            height: 7rem;
+            height: 5rem;
         }
 
         .bg-gray{
